@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: popular_repo_finder
+server:
+  port: 8080
+  compression:
+    enabled: true
+  error:
+    include-message: always
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+com:
+  meysamzamani:
+    default_date: 2019-01-10
