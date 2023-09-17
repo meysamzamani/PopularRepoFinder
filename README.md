@@ -18,19 +18,19 @@ To get started with PopularRepoFinder, follow these steps:
 ```
 **2. Configuration:**
 
-    Modify the `application.yml` file to configure the default date and other application properties.
+Modify the `application.yml` file to configure the default date and other application properties.
 
 **3. Build and Run:**
    
-    Build and run the application using Maven:
+Build and run the application using Maven:
 ```
    mvn spring-boot:run
 ```
-* The application will start on port 8080 by default.
+The application will start on port 8080 by default.
 
 **4. Access the API:**
 
-    You can access the API to discover popular repositories by making GET requests to the `/api/v1.0/repo` endpoint with the following query parameters:
+You can access the API to discover popular repositories by making GET requests to the `/api/v1.0/repo` endpoint with the following query parameters:
 
 * limit: Number of repositories to retrieve (e.g., 10, 50, 100).
 * language: Filter repositories by programming language (optional).
