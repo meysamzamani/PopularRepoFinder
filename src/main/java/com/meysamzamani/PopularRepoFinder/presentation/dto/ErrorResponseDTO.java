@@ -8,7 +8,6 @@ public class ErrorResponseDTO {
     private String message;
 
     public ErrorResponseDTO(HttpStatus status, String message) {
-        super();
         this.status = status;
         this.message = message;
     }
